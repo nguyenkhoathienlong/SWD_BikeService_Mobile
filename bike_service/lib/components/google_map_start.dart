@@ -12,32 +12,29 @@ class _MapSampleState extends State<MapSample> {
   static const LatLng _mainLocation = const LatLng(25.69893, 32.6421);
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
-            appBar: AppBar(
-              title: Text('Maps With Marker'),
-              backgroundColor: Colors.blue[900],
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.only(top: 80),
+            child: GoogleMap(
+              initialCameraPosition: CameraPosition(
+                target: _mainLocation,
+                zoom: 10.0,
+              ),
+              markers: this.myMarker(),
+              mapType: MapType.normal,
+              onMapCreated: (controller) {
+                setState(() {
+                  myMapController = controller;
+                });
+              },
             ),
-            body: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Expanded(
-                  child: GoogleMap(
-                    initialCameraPosition: CameraPosition(
-                      target: _mainLocation,
-                      zoom: 10.0,
-                    ),
-                    markers: this.myMarker(),
-                    mapType: MapType.normal,
-                    onMapCreated: (controller) {
-                      setState(() {
-                        myMapController = controller;
-                      });
-                    },
-                  ),
-                ),
-              ],
-            )));
+          ),
+        ),
+      ],
+    );
   }
 
   Set<Marker> myMarker() {

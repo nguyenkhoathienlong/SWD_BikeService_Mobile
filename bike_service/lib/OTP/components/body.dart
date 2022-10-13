@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/GoogleMap/google_map.dart';
-import 'package:flutter_complete_guide/HomePage/home.dart';
 import 'package:flutter_complete_guide/Screen/Welcome/components/background.dart';
 import 'package:flutter_complete_guide/components/size_box_otp.dart';
 import 'package:flutter_complete_guide/constrain.dart';
+import 'package:flutter_complete_guide/home/product_screen.dart';
 import '../../components/rounded_button.dart';
 
 class Body extends StatelessWidget {
@@ -35,7 +34,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return Home();
+                      return ProductScreen();
                     },
                   ),
                 );
@@ -44,6 +43,7 @@ class Body extends StatelessWidget {
             RoundButton(
               text: "Resend",
               press: () {},
+              color: kPrimaryColor,
             )
           ],
         ),

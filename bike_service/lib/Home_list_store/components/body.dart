@@ -67,7 +67,7 @@ class _ListHomeState extends State<ListHome> {
                           fontSize: 25,
                           color: Colors.black,
                           fontWeight: FontWeight.bold),
-                    )
+                    ),
                   ],
                 ),
               ],

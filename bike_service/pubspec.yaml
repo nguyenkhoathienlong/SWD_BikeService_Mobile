@@ -38,6 +38,7 @@ dependencies:
   flutter_polyline_points: ^1.0.0
   location: ^4.4.0
   flutter_svg: ^0.20.0-nullsafety.3
+  google_fonts: ^3.0.1
 
 
   
