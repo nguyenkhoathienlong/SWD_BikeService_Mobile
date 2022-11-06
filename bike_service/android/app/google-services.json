@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "172174387469",
+    "firebase_url": "https://bike-service-c602d-default-rtdb.firebaseio.com",
+    "project_id": "bike-service-c602d",
+    "storage_bucket": "bike-service-c602d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172174387469:android:d3694f190c8f799634a844",
+        "android_client_info": {
+          "package_name": "com.example.bike_service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172174387469-m1ckcg33d7n0p093as4hd2ksp548ji11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bike_service",
+            "certificate_hash": "85157e661e1b24f3eb9fb3dfc2346055cbcdf74a"
+          }
+        },
+        {
+          "client_id": "172174387469-vr1demda0p62dq701dsgjj9oa7ckm44g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_rpfXotp3cPlMloB4ymWy8xYfV1tc2Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172174387469-vr1demda0p62dq701dsgjj9oa7ckm44g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "172174387469-8hc5al2d7pia1rhrhca3k1t2u0f1s02l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bikeService"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172174387469:android:30f908f234e2dc2a34a844",
+        "android_client_info": {
+          "package_name": "com.example.phone_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172174387469-vr1demda0p62dq701dsgjj9oa7ckm44g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_rpfXotp3cPlMloB4ymWy8xYfV1tc2Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172174387469-vr1demda0p62dq701dsgjj9oa7ckm44g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "172174387469-8hc5al2d7pia1rhrhca3k1t2u0f1s02l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bikeService"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
